@@ -1,0 +1,12 @@
+generated: '2026-07-20'
+method: searched
+source: https://www.owndata.com/trust
+status_page: https://status.ownbackup.com/
+sla:
+  url: https://www.salesforce.com/platform/legal/sla/
+notes: >-
+  Own (formerly OwnBackup) is now Own from Salesforce. It is a SaaS data
+  protection product, not a public developer API platform, so there is no
+  published API versioning or deprecation policy. A public system status page is
+  operated at status.ownbackup.com; the SLA is governed by the Salesforce
+  platform SLA.

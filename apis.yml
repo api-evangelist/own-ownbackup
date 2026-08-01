@@ -1,8 +1,29 @@
 aid: own-ownbackup
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/own-ownbackup.png
 name: Own (OwnBackup)
-description: 'Own (OwnBackup) is a company surfaced as a portfolio company of sapphire-ventures and added
-  to the API Evangelist network as a stub for enrichment. Sector: infrastructure. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: >-
+  Own (formerly OwnBackup, now Own from Salesforce) is a SaaS data protection
+  platform that provides backup, recovery, archiving, sandbox seeding, and data
+  security and compliance for cloud applications including Salesforce, Microsoft
+  Dynamics 365, and ServiceNow. Founded in 2015 and acquired by Salesforce in
+  2024, Own helps organizations protect and manage the data held in their
+  business-critical SaaS systems against loss, corruption, and compliance risk.
+  Own is delivered as a managed product rather than a public developer API
+  platform: it operates a public system status page and a trust center listing
+  its security certifications (SOC 2, ISO 27001/27701, FedRAMP, HDS, GDPR,
+  HIPAA/HITECH) and a published vulnerability disclosure policy, but does not
+  currently publish an open, self-serve REST/OpenAPI developer surface.
 url: https://raw.githubusercontent.com/api-evangelist/own-ownbackup/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +33,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Infrastructure
+- Data Protection
+- Backup
+- Recovery
+- Data Security
+- Compliance
+- Salesforce
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +52,31 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://www.ownbackup.com/
+  url: https://www.owndata.com/
+- type: Support
+  url: https://support.owndata.com/s/
+- type: Blog
+  url: https://www.owndata.com/blog
+- type: Pricing
+  url: https://www.salesforce.com/platform/cloud-data-security/pricing/
+- type: PrivacyPolicy
+  url: https://www.salesforce.com/company/legal/privacy/
+- type: StatusPage
+  url: https://status.ownbackup.com/
+- type: Lifecycle
+  url: lifecycle/own-ownbackup-lifecycle.yml
+- type: TrustCenter
+  url: security/own-ownbackup-trust-center.yml
+- type: Compliance
+  url: https://www.owndata.com/trust
+- type: VulnerabilityDisclosure
+  url: security/own-ownbackup-vulnerability-disclosure.yml
+- type: Security
+  url: https://www.owndata.com/legal/vulnerability-disclosure-policy
+- type: DomainSecurity
+  url: security/own-ownbackup-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1
