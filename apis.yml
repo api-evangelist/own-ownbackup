@@ -12,18 +12,14 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/own-ownbackup.png
 name: Own (OwnBackup)
-description: >-
-  Own (formerly OwnBackup, now Own from Salesforce) is a SaaS data protection
-  platform that provides backup, recovery, archiving, sandbox seeding, and data
-  security and compliance for cloud applications including Salesforce, Microsoft
-  Dynamics 365, and ServiceNow. Founded in 2015 and acquired by Salesforce in
-  2024, Own helps organizations protect and manage the data held in their
-  business-critical SaaS systems against loss, corruption, and compliance risk.
-  Own is delivered as a managed product rather than a public developer API
-  platform: it operates a public system status page and a trust center listing
-  its security certifications (SOC 2, ISO 27001/27701, FedRAMP, HDS, GDPR,
-  HIPAA/HITECH) and a published vulnerability disclosure policy, but does not
-  currently publish an open, self-serve REST/OpenAPI developer surface.
+description: 'Own (formerly OwnBackup, now Own from Salesforce) is a SaaS data protection platform that provides
+  backup, recovery, archiving, sandbox seeding, and data security and compliance for cloud applications including
+  Salesforce, Microsoft Dynamics 365, and ServiceNow. Founded in 2015 and acquired by Salesforce in 2024, Own helps
+  organizations protect and manage the data held in their business-critical SaaS systems against loss, corruption,
+  and compliance risk. Own is delivered as a managed product rather than a public developer API platform: it operates
+  a public system status page and a trust center listing its security certifications (SOC 2, ISO 27001/27701, FedRAMP,
+  HDS, GDPR, HIPAA/HITECH) and a published vulnerability disclosure policy, but does not currently publish an open,
+  self-serve REST/OpenAPI developer surface.'
 url: https://raw.githubusercontent.com/api-evangelist/own-ownbackup/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -33,7 +29,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-20'
+modified: '2026-08-21'
 tags:
 - Company
 - Infrastructure
@@ -61,6 +57,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/salesforce/
+  name: Salesforce
+  x-relationship: acquisition
+  x-generated-by: salesforce-family:2026-08-21
+  x-acquired: 2024
 - type: Website
   url: https://www.owndata.com/
 - type: Support
@@ -90,3 +92,6 @@ x-enrichment:
   status: enriched
   artifacts_added: 3
   pass: local-v1
+x-parent: salesforce
+x-relationship: acquisition
+x-acquired: 2024
